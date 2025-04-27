@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="dt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiel</title>
+  </head>
+  <body>
+    <script>
+      const spielwelt = {
+        geschichte: [story],
+        antwort: [antwort],
+      };
+
+      const story = {
+        id: 1,
+        story_kapitels: [
+          {
+            id: a,
+            kapitel_1: [
+              {
+                ein_held: "dada",
+              },
+            ],
+            id: b,
+            kapitel_2: [
+              {
+                retten: "dada",
+              },
+            ],
+            id: c,
+            kapitel_3: [
+              {
+                verfolgung: "dada",
+              },
+            ],
+            id: d,
+            kapitel_4: [
+              {
+                sieg_oder_niederlage: "dada",
+              },
+            ],
+          },
+        ],
+      };
+
+      //   ------------------------------
+
+      //     wie gestalte ich die möglichkeit um alles anzusprechen per id ab hier?
+      //   ist dies der beste weg ?
+
+      const antwort = {
+        antwort_möglichkeiten: [
+          {
+            himmelsrichtungen: [norden],
+            himmelsrichtung_2: [westen],
+            himmelsrichtung_3: [süden],
+            himmelsrichtung_4: [osten],
+          },
+        ],
+      };
+
+      const norden = {
+        id: nord_dialog,
+        dialog: [
+          {
+            norden_geschichte_1: "geschichte",
+            norden_geschichte_2: "geschichte",
+            norden_geschichte_3: "geschichte",
+          },
+        ],
+        id: norder_ereignis,
+        ereignis: [
+          {
+            norden_kampf_1: "geschichte",
+            norden_kampf_2: "geschichte",
+            norden_kampf_3: "geschichte",
+          },
+        ],
+        id: nord_schatz,
+        schatz: [
+          {
+            norden_schatz_1: "schatz",
+            norden_schatz_2: "schatz",
+            norden_schatz_3: "schatz",
+          },
+        ],
+        id: nord_zufall,
+        zufall: [
+          {
+            nordenZufall_ereignis_1: "ereignis",
+            nordenZufall_ereignis_2: "ereignis",
+            nordenZufall_ereignis_3: "ereignis",
+          },
+        ],
+      };
+
+      const westen = {
+        id: west_dialog,
+        dialog: [
+          {
+            westen_geschichte_1: "geschichte",
+            westen_geschichte_2: "geschichte",
+            westen_geschichte_3: "geschichte",
+          },
+        ],
+        id: west_ereignis,
+        ereignis: [
+          {
+            westen_kampf_1: "geschichte",
+            westen_kampf_2: "geschichte",
+            westen_kampf_3: "geschichte",
+          },
+        ],
+        id: west_schatz,
+        schatz: [
+          {
+            westen_schatz_1: "schatz",
+            westen_schatz_2: "schatz",
+            westen_schatz_3: "schatz",
+          },
+        ],
+        id: west_zufall,
+        zufall: [
+          {
+            westenZufall_ereignis_1: "ereignis",
+            westenZufall_ereignis_2: "ereignis",
+            westenZufall_ereignis_3: "ereignis",
+          },
+        ],
+      };
+
+      const süden = {
+        id: süd_dialog,
+        dialog: [
+          {
+            süden_geschichte_1: "geschichte",
+            süden_geschichte_2: "geschichte",
+            süden_geschichte_3: "geschichte",
+          },
+        ],
+        id: süd_ereignis,
+        ereignis: [
+          {
+            süden_kampf_1: "geschichte",
+            süden_kampf_2: "geschichte",
+            süden_kampf_3: "geschichte",
+          },
+        ],
+        id: süd_schatz,
+        schatz: [
+          {
+            süden_schatz_1: "schatz",
+            süden_schatz_2: "schatz",
+            süden_schatz_3: "schatz",
+          },
+        ],
+        id: süd_zufall,
+        zufall: [
+          {
+            südenZufall_ereignis_1: "ereignis",
+            südenZufall_ereignis_2: "ereignis",
+            südenZufall_ereignis_3: "ereignis",
+          },
+        ],
+      };
+
+      const osten = {
+        id: ost_dialog,
+        dialog: [
+          {
+            osten_geschichte_1: "geschichte",
+            osten_geschichte_2: "geschichte",
+            osten_geschichte_3: "geschichte",
+          },
+        ],
+        id: ost_ereignis,
+        ereignis: [
+          {
+            osten_kampf_1: "geschichte",
+            osten_kampf_2: "geschichte",
+            osten_kampf_3: "geschichte",
+          },
+        ],
+        id: ost_schatz,
+        schatz: [
+          {
+            osten_schatz_1: "schatz",
+            osten_schatz_2: "schatz",
+            osten_schatz_3: "schatz",
+          },
+        ],
+        id: ost_zufall,
+        zufall: [
+          {
+            ostenZufall_ereignis_1: "ereignis",
+            ostenZufall_ereignis_2: "ereignis",
+            ostenZufall_ereignis_3: "ereignis",
+          },
+        ],
+      };
+    </script>
+  </body>
+</html>
